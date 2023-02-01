@@ -9,8 +9,15 @@ body
 h1
 {
   font-family: Arial, Helvetica, sans-serif;
-  font-size: 24px;
+  font-size: 36px;
   color: #2030A0;
+}
+
+h2
+{
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 24px;
+  color: black;
 }
 
 p
