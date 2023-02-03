@@ -68,7 +68,6 @@ ul
 .leftside
 {
   background-color: #800000;
-  justify-content: center;
   align-items: center;
   width: 15%;
   flex-direction: column;
