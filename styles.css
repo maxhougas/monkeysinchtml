@@ -10,7 +10,7 @@ h1
 {
   font-family: Arial, Helvetica, sans-serif;
   font-size: 36px;
-  color: #2030A0;
+  color: #A0A0A0;
 }
 
 h2
@@ -63,23 +63,28 @@ ul
 {
   flex-direction: row;
   width: 100%;
+  justify-content: center;
 }
 
 .leftside
 {
-  background-color: #800000;
+  background-color: #500050;
   align-items: center;
   width: 15%;
   flex-direction: column;
   padding: 10px;
+  margin: 5px;
+  border-radius: 15px;
+  min-height: 100%;
 }
 
 .rightside
 {
   background-color: #500050;
   justify-content: left;
-  width: 85%;
+  width: 80%;
   flex-direction: column;
   padding: 10px;
+  margin: 5px;
+  border-radius: 15px;
 }
-
