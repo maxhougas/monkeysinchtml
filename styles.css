@@ -61,13 +61,13 @@ ul
 {
   background-color: black;
   justify-content: center;
-  width: 1080px;
+  max-width: 1050px;
 }
 
 .sidebyside
 {
   flex-direction: row;
-  width: 1070px;
+  max-width: 1050px;
   justify-content: center;
 }
 
