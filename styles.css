@@ -21,10 +21,6 @@ h2
   color: black;
 }
 
-h3
-{
-}
-
 p
 {
   color: #A0A0A0;
@@ -79,6 +75,7 @@ ul
   background-color: #500050;
   align-items: center;
   width: 15%;
+  min-width: 15%;
   flex-direction: column;
   padding: 50px;
   margin: 5px;
@@ -90,7 +87,7 @@ ul
 {
   background-color: #500050;
   justify-content: left;
-  width: 80%;
+  max-width: 80%;
   flex-direction: column;
   padding: 50px;
   margin: 5px;
