@@ -54,6 +54,7 @@ ul
   list-style-type: none;
   margin: 0px;
   padding: 0px;
+  justify-content: center;
 }
 
 .banner
@@ -75,7 +76,6 @@ ul
   background-color: #500050;
   align-items: center;
   width: 15%;
-  min-width: 15%;
   flex-direction: column;
   padding: 50px;
   margin: 5px;
@@ -87,7 +87,7 @@ ul
 {
   background-color: #500050;
   justify-content: left;
-  max-width: 80%;
+  width: 80%;
   flex-direction: column;
   padding: 50px;
   margin: 5px;
