@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="ANSI" />
+    <title>monkeysinc.net</title>
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+  <body>
+    <div class="banner">
+      <h1>PAGETITLE</h1>
+    </div>
+    <div class="sidebyside">
+      <div class="leftside">
+        <h2>Menu</h2>
+        <ul>
+          <li><p><a href="./index.htm">Home</a></p></li>
+          <li><p><a href="./games.htm">Games!</a></p></li>
+          <li><p><a href="./resume.docx">My Resume</a></p></li>
+          <li><p><a href="https://www.linkedin.com/in/max-hougas">My LinkedIn</a></p></li>
+          <li><p><a href="https://github.com/maxhougas">My Github</a></p</li>
+        </ul>
+      </div>
+      <div class="rightside">
+        <h2>pTitle</h2>
+        <p>
+          pText.
+        </p>
+      </div>
+    </div>
+  </body>
+</html>
