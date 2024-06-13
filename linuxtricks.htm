@@ -31,6 +31,12 @@
           "sed 's:<regex>:<token>:g'": global replace; use -i to edit files "in place"
         </p>
         <p>
+         "sed 's:<regex>:<token0>&<token1>:g'": replace all <regex> with <token0><regex><token1> 
+        </p>
+        <p>
+         "sed '$s:<regex>:<token>:g'": replace last <regex>
+        </p>
+        <p>
           "grep [a-z0-9._-]*" grab line with <regex>; use -i to ignore case; use -o to grab tokens instead of lines
         </p>
         <h2>Link</h2>
