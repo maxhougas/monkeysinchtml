@@ -28,23 +28,33 @@
       <div class="rightside">
         <h2>Regex</h2>
         <p>
-          "sed 's:[REGEX]:[TOKEN]:g'": global replace; use -i to edit files in place
+          "sed 's:[REGEX]:[TOKEN]:g'": global replace; use -i to edit files in place.
         </p>
         <p>
-         "sed 's:[REGEX]:[TOKEN0]&[TOKEN1]:g'": replace all [REGEX] with [TOKEN0][REGEX][TOKEN1] 
+         "sed 's:[REGEX]:[TOKEN0]&[TOKEN1]:g'": replace all [REGEX] with [TOKEN0][REGEX][TOKEN1]. 
         </p>
         <p>
-         "sed '$s:[REGEX]:[TOKEN]:g'": replace last [REGEX]
+         "sed '$s:[REGEX]:[TOKEN]:g'": replace last [REGEX].
         </p>
         <p>
-          "grep [REGEX]" grab line with [REGEX]; use -i to ignore case; use -o to grab tokens instead of lines
+          "grep [REGEX]" grab line with [REGEX]; use -i to ignore case; use -o to grab tokens instead of lines.
         </p>
         <p>
-         "[a-zA-Z0-9._-]*" is a handy regex
+          "[a-zA-Z0-9._-]*" is a handy regex.
         </p>
         <h2>Link</h2>
         <p>
-          "ln -sT [TARGET] [LINK]": create [LINK] to [TARGET]
+          "ln -sT [TARGET] [LINK]": create [LINK] to [TARGET].
+        </p>
+        <h2>Automation</h2>
+        <p>
+          "yes [TOKEN] | [PROG]": will automatically answer [TOKEN] when [PROG] asks for user input. Handy when -y is not an option.
+        </p>
+        <p>
+          "[PROG] < [FILE]": is handy when you need different answers for different inputs.
+        </p>
+        <p>
+          "CMD [PROG] && tail -f /dev/null": is good for containers when [PROG] must be backgrounded.
         </p>
       </div>
     </div>
