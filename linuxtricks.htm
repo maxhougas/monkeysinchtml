@@ -31,16 +31,25 @@
           "sed 's:[REGEX]:[TOKEN]:g'": global replace; use -i to edit files in place.
         </p>
         <p>
-         "sed 's:[REGEX]:[TOKEN0]&[TOKEN1]:g'": replace all [REGEX] with [TOKEN0][REGEX][TOKEN1]. 
+          "sed 's:[REGEX]:[TOKEN0]&[TOKEN1]:g'": replace all [REGEX] with [TOKEN0][REGEX][TOKEN1]. 
         </p>
         <p>
-         "sed '$s:[REGEX]:[TOKEN]:g'": replace last [REGEX].
+          "sed '$s:[REGEX]:[TOKEN]:g'": replace [REGEX] in last line.
+        </p>
+        <p>
+          "sed 's:[REGEX]:[TOKEN]:g; s:[REGEX1]:[TOKEN1]:g'" multilple sed commands can be run from a single invocation.
         </p>
         <p>
           "grep [REGEX]" grab line with [REGEX]; use -i to ignore case; use -o to grab tokens instead of lines.
         </p>
         <p>
+          Look ahead and look behind only work with grep -P.
+        </p>
+        <p>
           "[a-zA-Z0-9._-]*" is a handy regex.
+        </p>
+        <p>
+          "https?://[A-Za-z0-9/%=\'\"\\._-]*" might grab URLs.
         </p>
         <h2>Link</h2>
         <p>
@@ -51,10 +60,13 @@
           "yes [TOKEN] | [PROG]": will automatically answer [TOKEN] when [PROG] asks for user input. Handy when -y is not an option.
         </p>
         <p>
-          "[PROG] < [FILE]": is handy when you need different answers for different inputs.
+          "[PROG] &lt [FILE]": is handy when you need different answers for different inputs.
         </p>
         <p>
           "CMD [PROG] && tail -f /dev/null": is good for containers when [PROG] must be backgrounded.
+        </p>
+        <p>
+          A script containing "#!/bin/sh tail -f /dev/null" will ensure that tail is running in an sh subshell.
         </p>
       </div>
     </div>
